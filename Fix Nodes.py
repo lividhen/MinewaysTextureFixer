@@ -25,5 +25,5 @@ for mat in bpy.data.materials:
                 mat.node_tree.links.new( mat.node_tree.nodes['Principled BSDF'].inputs['Alpha'], mat.node_tree.nodes['Image Texture'].outputs['Alpha'] )
                 
                 # Change Image Texture (Keep all quotes!)
-                #bpy.data.images['Name_Of_Old_Texture.png'].filepath = 'C:\Path\To\New\Image.png'
+                #bpy.data.images['Name_Of_Old_Texture.png'].filepath = 'C:/Path/To/New/Image.png'
                 
